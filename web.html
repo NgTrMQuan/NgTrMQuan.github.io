@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="description" content="My resume website"/>
+	<meta name="author" content="Dung Lai"/>
+	<meta name="country" content="Vietnam"/>
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/web.css">
+	<title>Min Kuan Trips's website</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .banner-area {
+            width: 100%;
+            height: 100vh;
+            background-image: url(html/road_marking_trees_137674_3840x2400.jpg);
+            background-size: cover;
+        }
+        .content-area {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .content {
+            text-align: center;
+        }
+        .content h1{
+            font-size: 80px;
+        }
+
+        .content p{
+            font-size: 30px;
+            color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner-area">
+        <div class="content-area">
+            <div class="content">
+                <h1 id="menu_text">My Trips in 2022</h1>
+                <p class="title"><em>- Welcome to my website -</em></p>
+            </div>
+        </div>
+    </div>
+
+	<nav>
+		<a href="#contact" class="menu_left">About</a>
+		<a href="#education" class="menu_left">Education</a>
+		<a href="#score" class="menu_left">Score</a>
+		<a href="#social" class="menu_left">Social media</a>
+		<a href="#abus" class="menu_right">About us</a>
+	</nav>
+
+	<div id="flex_container">
+		<div id="left_side">
+			<h2 id="contact">About me</h2>
+			<img src="html/b51562bf027ca2060d3d21b687e92c3e.jpg" alt="My photo" width="200"/>
+			<p><em>I am working in the information technology field.</em></p>
+			<ul>
+				<li><strong>Fullname</strong>: Nguyen Tran Minh Quan</li>
+				<li><strong>Country</strong>: Vietnam</li>
+				<li><strong>Age</strong>: 20</li>
+			</ul>
+            <br>
+			<h2 id="education">Education</h2>
+			<ol>
+				<li>Nguyen Du Highschool</li>
+				<li>Bach Khoa University</li>
+				<li>Mindx Technology University</li>
+			</ol>
+            <br>
+			<h2 id="score">Scores</h2>
+			<table>
+				<tr>
+					<th rowspan="2"></th>
+					<th colspan="2">Math</th>
+					<th rowspan="2">Physics</th>
+					<th rowspan="2">IT</th>
+				</tr>
+				<tr>
+					<th>Math 1</th>
+					<th>Math 2</th>
+				</tr>
+				<tr>
+					<th>2019</th>
+					<td>8</td>
+					<td>0</td>
+					<td>9</td>
+					<td>10</td>
+				</tr>
+				<tr>
+					<th>2020</th>
+					<td>10</td>
+					<td>0</td>
+					<td>2</td>
+					<td>9</td>
+				</tr>
+				<tr>
+					<th>2021</th>
+					<td>8</td>
+					<td>0</td>
+					<td>8</td>
+					<td>8</td>
+				</tr>
+			</table>
+            <br>
+			<h2 id="social">Social Media</h2>
+			<p>Youtube: <a href="https://www.youtube.com/channel/UCk6lqr2qgtJIxpGPzpKMCag">Young and Roads</a></p>
+			<p>Facebook: <a href="https://www.facebook.com/profile.php?id=100008237531643">Nguyen Tran Minh Quan</a></p>
+		</div>
+
+		<div id="right_side">
+			<h2 id="trips">My trips after last 2022</h2>
+			<div id="trips_container">
+				<div class="trips_item">
+					<img class="trips_img" src="html/269729728_3151379388479948_775561483749643508_n.jpg" width="200"/>
+					<div class="trips_title">Tà Đùng</div>
+					<div class="trips_desc">Hồ Tà Đùng nằm trong khu bảo tồn thiên nhiên Tà Đùng với tổng diện tích lên tới 22.000 ha</div>
+				</div>
+				<div class="trips_item">
+					<img class="trips_img" src="html/1647168447979.jpg" width="200" height="196.000"/>
+					<div class="trips_title"> Eo Gió</div>
+					<div class="trips_desc">Eo Gió là một trong những địa điểm du lịch Quy Nhơn nổi tiếng nằm ở xã Nhơn Lý, tỉnh Bình Định</div>
+				</div>
+				<div class="trips_item">
+					<img class="trips_img" src="html/b527da878e8b3dfda26cb1f4c844af29.jpg" width="200" height="196.000"/>
+					<div class="trips_title">Đà Lạt</div>
+					<div class="trips_desc">Đà Lạt là thành phố trực thuộc tỉnh Lâm Đồng, nằm trên cao nguyên Lâm Viên, thuộc vùng Tây Nguyên, Việt Nam</div>
+				</div>
+				<div class="trips_item">
+					<img class="trips_img" src="html/File_000.jpeg" width="200"/>
+					<div class="trips_title">Vũng Tàu</div>
+					<div class="trips_desc">Vũng Tàu là một thành phố thuộc tỉnh Bà Rịa Vũng Tàu, vùng Đông Nam Bộ, Việt Nam</div>
+				</div>
+				<div class="trips_item">
+					<img class="trips_img" src="html/IMG_5242.jpg" width="200"/>
+					<div class="trips_title">Lâm Đồng</div>
+					<div class="trips_desc">Lâm Đồng là một trong năm tỉnh thuộc vùng Tây Nguyên, Việt Nam</div>
+				</div>
+				<div class="trips_item">
+					<img class="trips_img" src="html/IMG_9431.jpg" width="200"/>
+					<div class="trips_title">Mũi Kê Gà</div>
+					<div class="trips_desc">Mũi Kê Gà còn được gọi là mũi Khe Gà, là một mũi đất ở xã Tân Thành, huyện Hàm Thuận Nam, tỉnh Bình Thuận, Việt Nam</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		Created by <strong>Min Kuan</strong> - <a href="mailto:gameplaymq@gmail.com">Email me</a>
+	</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
